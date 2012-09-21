@@ -7,12 +7,12 @@
         {
             "side": "zombies",
             "translation": "Zombies",
-            "winmsg": "~Players~ managed to kill the humans and get a good meal out of it, until they realised they was no more food"
+            "winmsg": "~Players~ managed to kill the humans and get a good meal out of it, until they realised there was no more food"
         },
         {
             "side": "humans",
             "translation": "Humans",
-            "winmsg": "~Players~ managed to escape from the Zombies. The Zombies were rounded up and used for TV Game Shows and ~Players~ were locked in a cell to be experimented on."
+            "winmsg": "~Players~ managed to escape from the Zombies. The Zombies were rounded up and used for TV Game Shows"
         },
         {
             "side": "hybrid",
@@ -81,7 +81,7 @@
                     "kill": {
                         "target": "AnyButSelf",
                         "common": "Self",
-                        "priority": 1
+                        "priority": 2
                     }
                 },
                 "distract": {
@@ -131,20 +131,20 @@
             "role": "science_human",
             "translation": "Scientist",
             "side": "humans",
-            "help": "You were one of the scientists that was working on the [CLASSIFIED] which caused these Zombies. You also managed to find a temporary vaccine to it. Each night you can use /inject [name] to protect one person from the zombies (including yourself), however, you only managed to grab 3 doses before leaving, so use them wisely! You can use them all in one night, or spread them out. You get one vote!",
+            "help": "You were one of the scientists that was working on the [CLASSIFIED] which caused these Zombies. You also managed to find a temporary vaccine to it. Each night you can use /inject [name] to protect one person from the zombies (including yourself), however, you only managed to grab 4 doses before leaving, so use them wisely! You can use them all in one night, or spread them out. You get one vote!",
             "actions": {
                 "night": {
                     "inject": {
                         "command": "protect",
                         "target": "Any",
                         "common": "Self",
-                        "priority": 2,
-                        "limit": 3,
-                        "charges": 3,
+                        "priority": 1,
+                        "limit": 4,
+                        "charges": 4,
                         "chargesmsg": "You have ~Charges~ doses remaining"
                     }
                 },
-                "startup": "team-reveal"
+                "startup": "team-reveal-with-roles"
             }
         },
         {
@@ -163,7 +163,7 @@
                         "chargesmsg": "You have ~Charges~ batteries left!"
                     }
                 },
-                "startup": "team-reveal"
+                "startup": "team-reveal-with-roles"
             }
         },
         {
@@ -176,13 +176,13 @@
                     "kill": {
                         "target": "AnyButTeam",
                         "common": "Self",
-                        "priority": 2,
+                        "priority": 3,
                         "charges": 4,
                         "limit": 4,
                         "initialrecharge": 4
                     }
                 },
-                "startup": "team-reveal"
+                "startup": "team-reveal-with-roles"
             }
         },
         {
@@ -196,14 +196,14 @@
                         "command": "kill",
                         "target": "AnyButTeam",
                         "common": "Self",
-                        "priority": 2
+                        "priority": 4
                     }
                 },
                 "kill": {
                     "mode": "killattacker",
-                    "targetmsg": "The bomber took him out with you!"
+                    "targetmsg": "The bomber took you out with him!"
                 },
-                "startup": "team-reveal"
+                "startup": "team-reveal-with-roles"
             }
         },
         {
