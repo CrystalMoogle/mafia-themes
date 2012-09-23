@@ -75,7 +75,7 @@
             "role": "werewolf_zombie",
             "translation": "Ravager Zombie",
             "side": "zombies",
-            "help": "The hunger struck you the hardest and those humans look ever so tasty... You don't care for protectors or any distractions as long as you eat! You can kill one person during the night using /kill [name], but during the day you're busy feeding so you get no votes!",
+            "help": "The hunger struck you the hardest and those humans look ever so tasty... You don't care for distractions as long as you eat! You can kill one person during the night using /kill [name], but during the day you're busy feeding so you get no votes!",
             "actions": {
                 "night": {
                     "kill": {
@@ -206,6 +206,24 @@
                 "startup": "team-reveal-with-roles"
             }
         },
+        {
+            "role":"leader_human",
+            "translation":"Survivor Leader",
+            "side":"humans",
+            "help": "You, unfortunately, was picked to become the Survivor leader. This may sound all well and good, until you realise you're probably going to be the number 1 target! Though it's not all doom and gloom, you once read a book on zombies, so you're able to tell the different kinds apart. Use /examine [name] during the night to find out a Zombie's role. You also get 2 votes!"
+            "actions":{
+                "night":{
+                    "examine":{
+                        "command":"inspect",
+                        "target":"Any",
+                        "common":"Self",
+                        "priority":29
+                    }
+                }
+                "startup": "team-reveal-with-roles",
+                "vote": 2
+            }
+        },    
         {
             "role": "conspirator_hybrid",
             "translation": "Hybrid",
