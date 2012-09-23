@@ -274,6 +274,7 @@
         "torch_human",
         "sniper_human",
         "bomb_human",
+        "leader_human",
         "conspirator_hybrid",
         "plain_zombie",
         "plain_zombie",
