@@ -130,7 +130,7 @@
         {
             "role":"plain_human",
             "translation":"Survivor",
-            "side":"human",
+            "side":"humans",
             "help":"You're fairly useless during the night... just try to make sure you live. You do get 1 vote during the day though, so use that to help your team!",
             "actions":{
                 "startup": "team-reveal-with-roles"
