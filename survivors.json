@@ -96,11 +96,11 @@
             }
         },
         {
-            "role":"plain_human",
-            "translation":"Survivor",
-            "side":"humans",
-            "help":"You're fairly useless during the night... just try to make sure you live. You do get 1 vote during the day though, so use that to help your team!",
-            "actions":{
+            "role": "plain_human",
+            "translation": "Survivor",
+            "side": "humans",
+            "help": "You're fairly useless during the night... just try to make sure you live. You do get 1 vote during the day though, so use that to help your team!",
+            "actions": {
                 "startup": "team-reveal-with-roles"
             }
         },
@@ -174,7 +174,7 @@
                         "target": "AnyButTeam",
                         "common": "Self",
                         "suicideChance": 1,
-                        "suicidemsg":"You blew yourself up to kill the Zombie!",
+                        "suicidemsg": "You blew yourself up to kill the Zombie!",
                         "priority": 4
                     }
                 },
@@ -186,23 +186,23 @@
             }
         },
         {
-            "role":"leader_human",
-            "translation":"Survivor Leader",
-            "side":"humans",
+            "role": "leader_human",
+            "translation": "Survivor Leader",
+            "side": "humans",
             "help": "You, unfortunately, was picked to become the Survivor leader. This may sound all well and good, until you realise you're probably going to be the number 1 target! Though it's not all doom and gloom, you once read a book on zombies, so you're able to tell the different kinds apart. Use /examine [name] during the night to find out a Zombie's role. You also get 2 votes!",
-            "actions":{
-                "night":{
-                    "examine":{
-                        "command":"inspect",
-                        "target":"Any",
-                        "common":"Self",
-                        "priority":29
+            "actions": {
+                "night": {
+                    "examine": {
+                        "command": "inspect",
+                        "target": "Any",
+                        "common": "Self",
+                        "priority": 29
                     }
                 },
                 "startup": "team-reveal-with-roles",
                 "vote": 2
             }
-        },    
+        },
         {
             "role": "conspirator_hybrid",
             "translation": "Hybrid",
