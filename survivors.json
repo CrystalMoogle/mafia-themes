@@ -1,7 +1,7 @@
 {
     "name": "Survivors",
     "author": "Crystal Moogle",
-    "summary": "The Zombies have a certain amount of time to kill the humans before they manage to escape! The humans most try to survive, if at least one lives at the end, they win! The humans know each other, but the zombies must find their team themselves! There's also a sneaky Hybrid who can aid either side and will win no matter who wins as long as he lives.",
+    "summary": "The Zombies have a certain amount of time to kill the humans before they manage to escape! The humans must try to survive, if at least one lives at the end, they win! The humans know each other, but the zombies must find their team themselves! There's also a sneaky Hybrid who can aid either side and will win no matter who wins as long as he lives.",
     "minplayers": 13,
     "sides": [
         {
