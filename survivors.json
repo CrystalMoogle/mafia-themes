@@ -28,7 +28,7 @@
             "actions": {
                 "initialCondition": {
                     "poison": {
-                        "count": 8,
+                        "count": 7,
                         "poisonDeadMessage": "They managed to escape!"
                     }
                 }
@@ -49,7 +49,7 @@
                 },
                 "initialCondition": {
                     "poison": {
-                        "count": 8,
+                        "count": 7,
                         "poisonDeadMessage": "They managed to escape!"
                     }
                 }
@@ -73,7 +73,7 @@
                 },
                 "initialCondition": {
                     "poison": {
-                        "count": 8,
+                        "count": 7,
                         "poisonDeadMessage": "They managed to escape!"
                     }
                 },
@@ -88,7 +88,7 @@
             "actions": {
                 "initialCondition": {
                     "poison": {
-                        "count": 8,
+                        "count": 7,
                         "poisonDeadMessage": "They managed to escape!"
                     }
                 },
@@ -225,7 +225,7 @@
                         "target": "AnyButSelf",
                         "msg": "You can know kill using /kill [name], remember you will be revealed and you only have 1 shot!",
                         "killmsg": "~Self~ sneaks up behind ~Target~ and stabs them in the back, unfortunately that was his only knife and it somehow broke!",
-                        "recharge": 8
+                        "recharge": 7
                     }
                 },
                 "vote": 2
