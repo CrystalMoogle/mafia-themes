@@ -44,7 +44,8 @@
                     "kill": {
                         "target": "AnyButSelf",
                         "common": "Role",
-                        "priority": 10
+                        "priority": 10,
+                        "broadcast": "role"
                     }
                 },
                 "initialCondition": {
