@@ -22,7 +22,7 @@
     "roles": [
         {
             "role": "plain_zombie",
-            "translation": "'Armless Zombie",
+            "translation": "Armless Zombie",
             "side": "zombies",
             "help": "Zombies are not known for having strong joints and thus you unfortunately lost your arms leaving you incapable of killing, however you still get one vote during the day!",
             "actions": {
