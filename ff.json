@@ -326,7 +326,11 @@
                         "broadcast": "team"
                     }
                 },
-                "startup": "team-reveal-with-roles"
+                "startup": "team-reveal-with-roles",
+    			"onDeath": {
+					"exposeRoles": ["mafia1"],
+					"exposemsg": "E-Jecht-ed!"
+				}
             }
         },
         {
@@ -362,7 +366,11 @@
                     }
                 },
                 "vote": 2,
-                "startup": "team-reveal-with-roles"
+                "startup": "team-reveal-with-roles",
+				"onDeath": {
+					"exposeRoles": ["conspirator1"],
+					"exposemsg": "These puns are Sinful..."
+				}
             }
         },
         {
@@ -402,7 +410,11 @@
                         "broadcast": "team"
                     }
                 },
-                "startup": "team-reveal-with-roles"
+                "startup": "team-reveal-with-roles",
+				"onDeath": {
+					"exposeRoles": ["mafiaboss1"],
+					"exposemsg": "We won't Seymour of them!"
+				}
             }
         },
         {
